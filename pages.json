@@ -1,0 +1,273 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "uni-app",
+				"enablePullDownRefresh": true,
+				"navigationStyle": "custom",
+				"onReachBottomDistance": 126
+			}
+		}, {
+			"path": "pages/home/home",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+
+		}, {
+			"path": "pages/stream/stream",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom",
+				"onReachBottomDistance": 126
+			}
+
+		}, {
+			"path": "pages/profile/profile",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/cfunding/cfunding",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom",
+				"onReachBottomDistance": 126
+			}
+		}
+	    ,{
+            "path" : "pages/usersetting/usersetting",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/itemDetail/itemDetail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/addressSetting/addressSetting",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "addressseting",
+                "enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/modifyaddress/modifyaddress",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/cart/cart",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/history/history",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/confirm/confirm",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/agreement/agreement",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/playerlist/playerlist",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/boxplayerlist/boxplayerlist",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/csale/csale",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/cact/cact",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/bingolist/bingolist",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/getbingolist/getbingolist",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/log/log",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"usingComponents": {
+			"van-sticky": "/wxcomponents/vant/dist/sticky/index",
+			"van-tab": "/wxcomponents/vant/dist/tab/index",
+			"van-tabs": "/wxcomponents/vant/dist/tabs/index",
+			"van-dropdown-menu": "/wxcomponents/vant/dist/dropdown-menu/index",
+			"van-dropdown-item": "/wxcomponents/vant/dist/dropdown-item/index",
+			"van-switch": "/wxcomponents/vant/dist/switch/index",
+			"van-button": "/wxcomponents/vant/dist/button/index",
+			"van-cell": "/wxcomponents/vant/dist/cell/index",
+			"van-cell-group": "/wxcomponents/vant/dist/cell-group/index",
+			"van-collapse": "/wxcomponents/vant/dist/collapse/index",
+			"van-collapse-item": "/wxcomponents/vant/dist/collapse-item/index",
+			"van-goods-action": "/wxcomponents/vant/dist/goods-action/index",
+			"van-goods-action-icon": "/wxcomponents/vant/dist/goods-action-icon/index",
+			"van-goods-action-button": "/wxcomponents/vant/dist/goods-action-button/index",
+			"van-count-down": "/wxcomponents/vant/dist/count-down/index",
+			"van-empty": "/wxcomponents/vant/dist/empty/index",
+			"van-field": "/wxcomponents/vant/dist/field/index",
+			"van-action-sheet": "/wxcomponents/vant/dist/action-sheet/index",
+			"van-area": "/wxcomponents/vant/dist/area/index",
+			"van-toast": "/wxcomponents/vant/dist/toast/index",
+			"van-swipe-cell": "/wxcomponents/vant/dist/swipe-cell/index",
+			"van-tag": "/wxcomponents/vant/dist/tag/index",
+			"van-submit-bar": "/wxcomponents/vant/dist/submit-bar/index",
+			"van-overlay": "/wxcomponents/vant/dist/overlay/index",
+			"van-popup": "/wxcomponents/vant/dist/popup/index",
+			 "van-card": "/wxcomponents/vant/dist/card/index",
+			 "van-stepper": "/wxcomponents/vant/dist/stepper/index",
+			 "van-icon": "/wxcomponents/vant/dist/icon/index",
+			 "van-search": "/wxcomponents/vant/dist/search/index",
+			 "van-checkbox": "/wxcomponents/vant/dist/checkbox/index",
+			 "van-image": "/wxcomponents/vant/dist/image/index",
+			 "van-circle": "/wxcomponents/vant/dist/circle/index",
+			 "van-dialog": "/wxcomponents/vant/dist/dialog/index"
+		}
+	},
+	"tabBar": {
+		"color": "#333333",
+		"selectedColor": "#DD524D",
+		"backgroundColor": "#FFFFFF",
+		"list": [{
+				"iconPath": "static/tabBar/home.png",
+				"selectedIconPath": "static/tabBar/home-selected.png",
+				"text": "首页",
+				"pagePath": "pages/index/index"
+			},
+			{
+				"iconPath": "static/tabBar/shop.png",
+				"selectedIconPath": "static/tabBar/shop-selected.png",
+				"text": "已完成",
+				"pagePath": "pages/home/home"
+			},
+			// {
+			// 	"iconPath": "static/tabBar/publish.png",
+			// 	"selectedIconPath": "static/tabBar/publish-selected.png",
+			// 	"text": "发布",
+			// 	"pagePath": "pages/publish/publish"
+			// },
+			{
+				"iconPath": "static/tabBar/stream.png",
+				"selectedIconPath": "static/tabBar/stream-selected.png",
+				"text": "直播",
+				"pagePath": "pages/stream/stream"
+			},
+			{
+				"iconPath": "static/tabBar/my.png",
+				"selectedIconPath": "static/tabBar/my-selected.png",
+				"text": "我的",
+				"pagePath": "pages/profile/profile"
+			}
+		]
+	}
+}
